@@ -1,7 +1,8 @@
 import axios from 'axios'
 
+//trocar o endereço de acordo com o ip de onde está sendo publicado
 const api = axios.create({
-    baseURL: 'http://192.168.1.42:3333',
+    baseURL: '',
 })
 
 export default api;
